@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="mexico">
+    <serverData>
+      <paths name="delorean">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sdevroe1/Network" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mexico">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sander/Network" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

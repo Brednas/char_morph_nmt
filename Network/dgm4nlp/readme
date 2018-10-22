@@ -1,0 +1,57 @@
+This code base is about deep generative models for NLP.
+
+
+# Install
+
+We develop in `python3` and we like to use `virtualenv`:
+
+
+* Creating a virtual environment based on python3: this you only need to do the first time.
+```sh
+virtualenv -p python3 ~/envs/dgm4nlp
+```
+
+* Sourcing it: this you need to do whenever you want to run (or develop) the code.
+```sh
+source ~/envs/dgm4nlp/bin/activate
+```
+
+* In case you use `PyCharm` you will need to configure it to use your environment:        
+```sh
+# navigate to
+PyCharm/Preferences/Project/Project Interpreter
+# point your interpreter to
+~/envs/dgm4nlp/bin/python
+```
+
+* Requirements
+```sh
+# yolk3k is not a requirement, but it is helpful to list packages in our virtual environment
+pip install yolk3k
+pip install numpy
+pip install scipy
+pip install cython
+pip install Theano
+pip install tabulate
+# we use the most recent Keras (aka Keras-2)
+pip install keras
+```
+      
+* Clone the code
+```sh
+git clone https://github.com/wilkeraziz/dgm4nlp.git
+```
+        
+* Build
+```sh
+cd dgm4nlp
+python setup.py develop
+```
+        
+        
+# Tags
+
+* embedalign.ae.baseline: First stable version of the autoencoder alignment model
+* embedalign.ae.baseline.v1.1: Fix minor problems saving output files (no changes to model or architecture)
+* embedalign.ae.baseline.v1.2: non-uniform alignments available 
+
